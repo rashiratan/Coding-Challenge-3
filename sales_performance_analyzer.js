@@ -40,3 +40,16 @@ function findTopAndBottomPerformers(Performers) {
     //bottom performer is first entry
 return {TopPerformer, BottomPerformer};
 }
+
+//Task 4:
+function generatePerformanceReport(Performers) {
+    Performers.forEach(Performer => {
+    Performer.AverageSales = calculateAverageSales(Performer.sales);
+    Performer.PerformanceRating = determinePerformanceRating(Performer.AverageSales)}
+)
+//using forEach method to display the average sales and performance rating
+return {
+Performers: Performers,
+TopAndBottomPerformers: findTopAndBottomPerformers(Performers)}
+//calling findTopAndBottomPerformers function to return object requried
+}
