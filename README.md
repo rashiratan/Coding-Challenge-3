@@ -1,2 +1,3 @@
 # Coding-Challenge-3
 This is a repository for Coding-Challenge-3 for the ISM3232 Class where we will create a program to generate performance reports for a company's sales department.
+In this project, we will use a variety of JavaScript concepts to create functions to calculate the average sales, determine performance ratings, identify the top and bottom performers, and generate a comprehensive performance report. We will also use objects and arrays along with reduce(), map(), and other such methods to reach the intended goal of the project.
